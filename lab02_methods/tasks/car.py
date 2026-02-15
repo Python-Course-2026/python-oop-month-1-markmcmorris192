@@ -1,5 +1,6 @@
 class Car:
     """Задача: car"""
+
     def __init__(self):
         self.speed = 0
 
@@ -8,4 +9,5 @@ class Car:
 
     def brake(self, v: int):
         """Снижает скорость, но не ниже 0"""
-        pass
+        if self.speed > 0:
+            self.speed -= v
