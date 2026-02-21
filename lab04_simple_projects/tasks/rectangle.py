@@ -5,4 +5,4 @@ class Rectangle:
         self.w, self.h = w, h
 
     def area(self):
-        self.area = self.w * self.h
+        return self.w * self.h
